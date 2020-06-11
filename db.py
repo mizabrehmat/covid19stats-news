@@ -33,7 +33,7 @@ def check_connection(conn):
             return True
         else:
             try:
-                conn =  connect(host = "104.223.107.42",user = "amit",password = "amitpandey123121",db = "covid19bot")
+                conn =  connect(host = "104.223.107.42",user = "mizab",password = "mizabrehmat",db = "covid19bot")
                 return True
             except:
                 return False
