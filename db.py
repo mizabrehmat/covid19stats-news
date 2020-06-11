@@ -8,7 +8,7 @@ update_group_busy = 0
 class DB:
     conn = None
     def connect(self):
-        self.conn = pymysql.connect(host = host,user = "amit",password = "amitpandey123121",db = "covid19bot")
+        self.conn = pymysql.connect(host = host,user = "mizab",password = "mizabrehmat",db = "covid19bot")
     def query(self, sql):
         try:
             cursor = self.conn.cursor()
